@@ -1,0 +1,111 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="DataSet1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataSet1.gitignore</DependentUpon>
+    </Compile>
+    <Compile Update="hahah.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>hahah.idl</DependentUpon>
+    </Compile>
+    <Compile Update="hehe.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>hehe.ts</DependentUpon>
+    </Compile>
+    <Compile Update="Mengtest.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Mengtest.cpp</DependentUpon>
+    </Compile>
+    <Compile Update="pdgml.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>pdgml.dgml</DependentUpon>
+    </Compile>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="test.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>test.c</DependentUpon>
+    </Compile>
+    <Compile Update="testmengmeng.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>testmengmeng.sqlite</DependentUpon>
+    </Compile>
+    <Compile Update="textthree.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>textthree.ipeg</DependentUpon>
+    </Compile>
+    <Compile Update="xiyang.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>xiyang.h</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DataSet1.gitignore">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="DataSet1.pdb">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="hahah.idl">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hahah.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="hehe.ts">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hehe.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Mengtest.cpp">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Mengtest.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="pdgml.dgml">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>pdgml.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="test.c">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>test.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="testmengmeng.sqlite">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>testmengmeng.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="textthree.ipeg">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>textthree.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="xiyang.h">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>xiyang.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
